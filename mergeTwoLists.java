@@ -1,12 +1,10 @@
 // 
 /*
-merge sort type of algorithim
+merge sort approach
 
 */
 class Solution {
     public ListNode mergeTwoLists(ListNode l1, ListNode l2) {
-        ListNode current1 = l1;
-        ListNode current2 = l2;
         ListNode head = new ListNode(0);
         ListNode result = head;
 
